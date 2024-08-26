@@ -164,7 +164,7 @@ If you encounter any issues or have any questions, please feel free to open an i
 
 ## 📚 Demo
 
-See the [docs](./docs) for a demo. The script [ipg.php](./ipg.php) was used in the [docs-en](./docs/docs-en/) and [docs-nb](./docs/docs-nb) folders.
+See the [**docs site**](https://johnfilipstad.github.io/index-page-generator/) for a demo. The script [ipg.php](./ipg.php) was used in the [docs-en](./docs/docs-en/) and [docs-nb](./docs/docs-nb) folders.
 
 
 ---

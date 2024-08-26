@@ -11,4 +11,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Included SVG icons to visually represent different file types (archive, audio, code, file, folder, image, text, video, document).
 - Basic README file provided with setup and usage instructions.
 - LICENSE file included to specify the project's licensing terms.
-- Added docs/* which will also serve as demo.
+- Added docs/* for documentation.
+- Added the link to the website version of the docs which will also serve as demo.

@@ -159,7 +159,7 @@ Hvis du støter på problemer eller har spørsmål, kan du gjerne åpne en sak p
 
 ## 📚 Demo
 
-Se [dokumentasjonen](./docs) for en demo. Skriptet [ipg.php](./ipg.php) ble brukt i mappene [docs-en](./docs/docs-en/) og [docs-nb](./docs/docs-nb).
+Se [**dokumentasjon-nettsiden**](https://johnfilipstad.github.io/index-page-generator/) for en demo. Skriptet [ipg.php](./ipg.php) ble brukt i mappene [docs-en](./docs/docs-en/) og [docs-nb](./docs/docs-nb).
 
 
 ---
