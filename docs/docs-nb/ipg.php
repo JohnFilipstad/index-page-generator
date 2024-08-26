@@ -431,7 +431,6 @@ function buildHTMLDocument(string $content, string $relativePathFromSubdirectory
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="{$trans['directory_listing']}">
-     <meta name="robots" content="noindex">
      <title>{$trans['directory_listing']}</title>
      <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
      <style>

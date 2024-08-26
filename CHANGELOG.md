@@ -13,3 +13,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - LICENSE file included to specify the project's licensing terms.
 - Added docs/* for documentation.
 - Added the link to the website version of the docs which will also serve as demo.
+- \[Docs\] Added to the main docs page links to the repository and docs code.
+- \[Docs\] Removed the nofollow on index pages.

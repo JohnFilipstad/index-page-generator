@@ -103,6 +103,45 @@ code {
     background-color: #0056b3;
 }
 
+.contribution-section {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contribution-section p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.github-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.github-link:hover {
+    color: #0056b3;
+}
+
+.github-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 600px) {
     .container {
