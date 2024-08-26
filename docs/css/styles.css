@@ -1,0 +1,126 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@400;700&family=Montserrat:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+/* Base Settings */
+html {
+    font-size: 62.5%; /* 1rem = 1.125rem */
+}
+
+body {
+    font-family: 'Literata', serif;
+    font-size: 1.5rem; /* 1.5rem */
+    line-height: 1.5;
+    padding: 2.665rem;
+    padding-top: 1.999rem;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #f4f4f4;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #009b0d;
+}
+
+h1 {
+    font-size: 3.553rem; /* 35.53px */
+    margin-bottom: 1.999rem;
+}
+
+h2 {
+    font-size: 2.665rem; /* 26.60.475rem */
+    margin-top: 3.553rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.999rem; /* 19.99px */
+    margin-top: 2.665rem;
+    margin-bottom: 1.125rem;
+    color: #005e10;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1.999rem;
+}
+
+/* Lists */
+ul, ol {
+    margin-bottom: 1.999rem;
+    padding-left: 1.999rem;
+}
+
+li {
+    margin-bottom: 1.125rem;
+}
+
+/* Code and Preformatted Text */
+pre, code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+    background-color: #ffd3d393;
+    padding: 1.5rem;
+    border-radius: 0.475rem;
+    overflow-x: auto;
+}
+
+code {
+    color: rgb(214, 51, 132);
+}
+
+/* Index Page Specific Styling */
+.container {
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    padding: 2.665rem 50px;
+    border-radius: 1.125rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.999rem;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 0.475rem;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem; /* 12px */
+}
+
+.link-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 1.999rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.4rem; /* 14px */
+        margin-bottom: 1.999rem;
+    }
+
+    .link-button {
+        padding: 1.125rem 1.999rem;
+        font-size: 1.1rem; /* 11px */
+    }
+}

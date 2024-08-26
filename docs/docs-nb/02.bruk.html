@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruksveiledning</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <h1>📖 Bruksveiledning</h1>
+
+    <h2>🌐 Språkstøtte</h2>
+    <p>Skriptet støtter følgende språk:</p>
+    <ul>
+      <li>Engelsk (en) – Standard</li>
+      <li>Norsk (nb)</li>
+      <li>Filippinsk (fil)</li>
+      <li>Spansk (es)</li>
+      <li>Fransk (fr)</li>
+    </ul>
+    <p>
+      Du kan bytte språk ved å angi riktig språkkode enten i URL-en
+      (<code>lang=xx</code>) eller i kommandolinjen (<code>--lang=xx</code>).
+    </p>
+
+    <h2>💻 Webbruk</h2>
+    <p>
+      Få tilgang til skriptet via nettleseren din. Skriptet vil generere
+      <code>index.html</code>-filer for hver mappe. Du kan spesifisere språket
+      ved å bruke URL-parameteren <code>?lang=xx</code> (f.eks.
+      <code>?lang=nb</code> for norsk bokmål).
+    </p>
+
+    <h3>Eksempel</h3>
+    <p>
+      Hvis nettstedet ditt ligger på <code>http://yourdomain.com</code>, og du
+      vil at katalogene skal være på spansk, naviger enkelt til:
+    </p>
+    <pre><code>http://yourdomain.com/ipg.php?lang=fil</code></pre>
+    <p>
+      Skriptet vil generere <code>index.html</code>-filer med kataloger på
+      filippinsk.
+    </p>
+
+    <h2>🖥️ CLI-bruk</h2>
+    <p>Kjør skriptet i terminalen din:</p>
+    <pre><code>php ipg.php
+php ipg.php --lang=es</code></pre>
+    <p>
+      Skriptet bruker engelsk som standard hvis skriptet kalles uten en
+      parameter. Bytt ut <code>es</code> med din ønskede språkkode
+      (<code>en</code>, <code>nb</code>, <code>fil</code>, <code>es</code>,
+      <code>fr</code>).
+    </p>
+
+    <h3>Eksempel</h3>
+    <p>
+      Hvis du foretrekker å bruke kommandolinjen og ønsker at listene skal være
+      på fransk, naviger til mappen der skriptet er plassert og kjør:
+    </p>
+    <pre><code>php ipg.php --lang=fr</code></pre>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usage Guide</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+
+  <body>
+    <h1>📘 Usage Guide</h1>
+
+    <h2>🌐 Language Support</h2>
+    <p>The script supports the following languages:</p>
+    <ul>
+      <li><strong>English (en)</strong> – Default</li>
+      <li><strong>Norwegian (nb)</strong></li>
+      <li><strong>Filipino (fil)</strong></li>
+      <li><strong>Spanish (es)</strong></li>
+      <li><strong>French (fr)</strong></li>
+    </ul>
+    <p>
+      You can switch languages by providing the appropriate language code either in the URL 
+      (<code>?lang=xx</code>) or in the command line 
+      (<code>--lang=xx</code>).
+    </p>
+
+    <h2>💻 Web Use</h2>
+    <p>
+      Access the script via your browser. The script will generate 
+      <code>index.html</code> files for each directory. You can specify the language 
+      using the <code>?lang=xx</code> URL parameter (e.g., <code>?lang=nb</code> for Norwegian Bokmål).
+    </p>
+
+    <h3>Example</h3>
+    <p>
+      If your site is hosted at <code>http://yourdomain.com</code> and you want the directories to be in Spanish, simply navigate to:
+    </p>
+    <pre><code>http://yourdomain.com/ipg.php?lang=es</code></pre>
+    <p>
+      The script will generate <code>index.html</code> files with directories in Spanish.
+    </p>
+
+    <h2>🖥️ CLI Use</h2>
+    <p>
+      Run the script in your terminal:
+    </p>
+    <pre><code>php ipg.php
+php ipg.php --lang=es</code></pre>
+    <p>
+      The script defaults to English if called without a parameter. Replace <code>es</code> with your desired language code 
+      (<code>en</code>, <code>nb</code>, <code>fil</code>, <code>es</code>, <code>fr</code>).
+    </p>
+
+    <h3>Example</h3>
+    <p>
+      If you prefer to use the command line and want the listings to be in French, navigate to the folder where the script is located and run:
+    </p>
+    <pre><code>php ipg.php --lang=fr</code></pre>
+  </body>
+</html>
